@@ -10,7 +10,7 @@ export interface TokenData {
 }
 
 export interface AuthDataInToken {
-    _id: string;
+    _id?: string;
 }
 
 export function hashPassword (password: string) {
